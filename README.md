@@ -1,7 +1,6 @@
 # AgoraVideoServer
 
 ## Prerequisites
-Before using the Library, you need to:
 
 1. Get a valid Agora account. ([Sign up](https://sso.agora.io/en/signup) for free.)
 2. Create a project in [Agora Console](https://console.agora.io/) and choose **App ID + Token** for authentication.

@@ -4,8 +4,8 @@ const cors = require('cors');
 const { RtcTokenBuilder, RtcRole } = require('agora-access-token');
 
 
-const APP_ID = '<APP_ID>';
-const APP_CERTIFICATE = '<APP_CERTIFICATE>';
+const APP_ID = '820e0850d1724a4eb45f316a2a1c0658';
+const APP_CERTIFICATE = '415a9186152b459e9a447da3e58810a4';
 
 
 const app = express()
