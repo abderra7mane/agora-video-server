@@ -1,13 +1,23 @@
 {
   "name": "agora-video-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "A restful api application to generate Agora SDK tokens.",
+  "keywords": ["Agora SDK", "Video Chat"],
+  "author": {
+    "name": "Abderrahmane Mokrani",
+    "email": "m.abderra7mane@gmail.com",
+    "url": "https://abderra7mane.com"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abderra7mane/agora-video-server.git"
+  },
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "public": true,
   "dependencies": {
     "agora-access-token": "^2.0.4",
     "cors": "^2.8.5",
